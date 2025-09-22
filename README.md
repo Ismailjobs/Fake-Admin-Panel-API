@@ -103,3 +103,8 @@ Response Example:
 -     "success": false,
 -     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3NkdHVzZXIiLCJpcCI6Ijo6MSIsInRpbWVzdGFtcCI6MTc1ODUzODI1MDc4MywiaWF0IjoxNzU4NTM4MjUwLCJleHAiOjE3NTg1NDE4NTB9.VomS8VUKBl3EIlLCGWst1XrIIXMoQILR18U-2qUAlJM"
 - }
+
+Or Use Curl: 
+
+- curl -X POST http://localhost:3000/admin \ -H "Content-Type: application/json" \ -d '{"username":"testuser","password":"123"}'
+
