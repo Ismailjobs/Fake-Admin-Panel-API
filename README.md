@@ -1,3 +1,5 @@
+<img width="640" height="608" alt="image" src="https://github.com/user-attachments/assets/1c1f4771-d76c-48da-9ce0-f14da94c9e93" />
+
 # Fake Admin Panel API
 
 This is a **Fake Admin Panel API** designed to log all login attempts made to it. The API captures the following details:
