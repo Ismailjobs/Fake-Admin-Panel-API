@@ -65,3 +65,16 @@ The API stores login attempts in MongoDB, grouping attempts by **IP address**. M
 - MONGODB_CONNECTION_STRING=mongodb://localhost:27017/fake_admin_panel
 - JWT_SECRET=your_jwt_secret_here
 
+---
+
+## Running the API
+
+Start the server:
+
+- npm start
+
+
+You should see:
+
+- Server is running on http://localhost:3000
+- Connected to MongoDB
