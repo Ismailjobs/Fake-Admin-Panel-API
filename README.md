@@ -1,5 +1,3 @@
-<img width="640" height="608" alt="image" src="https://github.com/user-attachments/assets/1c1f4771-d76c-48da-9ce0-f14da94c9e93" />
-
 # Fake Admin Panel API
 
 This is a **Fake Admin Panel API** designed to log all login attempts made to it. The API captures the following details:
@@ -14,6 +12,10 @@ This is a **Fake Admin Panel API** designed to log all login attempts made to it
 The API stores login attempts in MongoDB, grouping attempts by **IP address**. Multiple attempts from the same IP will be stored in a single document, under an array of attempts.
 
 ---
+## Photos
+<img width="640" height="608" alt="image" src="https://github.com/user-attachments/assets/1c1f4771-d76c-48da-9ce0-f14da94c9e93" />
+<img width="750" height="375" alt="image" src="https://github.com/user-attachments/assets/f301faf9-9d3d-451d-82e4-24411a003720" />
+
 
 ## Features
 
@@ -37,8 +39,27 @@ The API stores login attempts in MongoDB, grouping attempts by **IP address**. M
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/Ismailjobs/Fake-Admin-Panel-API/
-cd fake-admin-panel-api
-npm install
-npm start
+- git clone https://github.com/Ismailjobs/Fake-Admin-Panel-API/
+- cd fake-admin-panel-api
+
+---
+
+## Install dependencies
+
+- npm install
+
+## Dependencies used:
+
+- express – Web framework
+- mongoose – MongoDB object modeling
+- dotenv – Environment variables management
+- jsonwebtoken – JWT generation
+
+---
+
+## Create .env file
+
+- PORT=3000
+- MONGODB_CONNECTION_STRING=mongodb://localhost:27017/fake_admin_panel
+- JWT_SECRET=your_jwt_secret_here
+
