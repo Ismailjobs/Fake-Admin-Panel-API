@@ -1,0 +1,42 @@
+# Fake Admin Panel API
+
+This is a **Fake Admin Panel API** designed to log all login attempts made to it. The API captures the following details:
+
+- IP address of the requester
+- User-Agent header
+- HTTP method and endpoint
+- Username and password attempts
+- JWT token generated for each request
+- Timestamp of each attempt
+
+The API stores login attempts in MongoDB, grouping attempts by **IP address**. Multiple attempts from the same IP will be stored in a single document, under an array of attempts.
+
+---
+
+## Features
+
+- Records all login attempts with detailed information.
+- Groups multiple attempts from the same IP in one document.
+- Generates JWT for each request.
+- Uses Express.js and Mongoose for backend handling.
+- Fully customizable for development and testing purposes.
+
+---
+
+## Requirements
+
+- Node.js >= 18
+- MongoDB server running locally or remotely
+- npm
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Ismailjobs/Fake-Admin-Panel-API/
+cd fake-admin-panel-api
+npm install
+npm start
